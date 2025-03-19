@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>E-commerence website</title>
+</head>
+<body>
+      <div class="Top-nav-bar">
+        <div class="search-box">
+            <i class="fa-solid fa-bars" id="menu-btn" onclick ="openmenu()"></i>
+            <i class="fa-regular fa-circle-xmark" id="close-btn" onclick ="closemenu()"></i>
+            <img src="img/logo.jpg" alt="" class="logo">
+            <input type="text" class="form-control">
+            <span class="input-group-text"><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+
+        <div class="menu-bar">
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-basket-shopping"></i>cart</a></li>
+                <li><a href="#">Sign up</a></li>
+                <li><a href="#">Log in</a></li>
+            </ul>
+        </div>
+
+        <section class="header">
+            <div class="side-menu" id="side-menu">
+                <ul>
+                    <li>On sales<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>Clothes</li>
+                        <li>powder</li>
+                        <li>T-shirt</li>
+                        <li>Laptops</li>
+                    </ul>
+                    </li>
+                    <li>Mobiles<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>iphones</li>
+                        <li>Samsung</li>
+                        <li>Nokia</li>
+                        <li>Infinix</li>
+                    </ul>
+                    </li>
+                    <li>Computer<i class="fa-solid fa-angle-right"></i>
+                    <ul>
+                        <li>dell</li>
+                        <li>Hp</li>
+                        <li>Android</li>
+                        <li>Apple</li>
+                    </ul>
+                    </li>
+                    <li>Labs<i class="fa-solid fa-angle-right"></i>
+                        <ul>
+                            <li>computer</li>
+                            <li>Physics</li>
+                            <li>chemistry</li>
+                            <li>English</li>
+                    </ul>
+                    </li>
+
+                    <li>Furniture<i class="fa-solid fa-angle-right"></i>
+                        <ul>
+                            <li>TAble</li>
+                            <li>chair</li>
+                            <li>Door</li>
+                            <li>Window</li>
+                        </ul>
+                    </li>
+                    <li>Shopping<i class="fa-solid fa-angle-right"></i>
+                        <ul>
+                            <li>Shirt</li>
+                            <li>Pants</li>
+                            <li>Cup</li>
+                            <li>Glass</li>
+                        </ul>
+                    </li>
+                    <li>Baby car<i class="fa-solid fa-angle-right"></i>
+                        <ul>
+                            <li>sub menu-7</li>
+                            <li>sub menu-7</li>
+                            <li>sub menu-7</li>
+                            <li>sub menu-7</li>
+                        </ul>
+                    </li>
+                    <li>Video and Games<i class="fa-solid fa-angle-right"></i>
+                        <ul>
+                            <li>sub menu-8</li>
+                            <li>sub menu-8</li>
+                            <li>sub menu-8</li>
+                            <li>sub menu-8</li>
+                        </ul>
+                    </li>
+                    <li>Grocery<i class="fa-solid fa-angle-right"></i>
+                        <ul>
+                            <li>sub menu-9</li>
+                            <li>sub menu-9</li>
+                            <li>sub menu-9</li>
+                            <li>sub menu-9</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="slider">
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/e-com1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/e-com2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/e-com3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <Section class="feactured-categaries">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+              <img src="img/categories1.jpg">
+              </div>
+              <div class="col-md-4">
+              <img src="img/categories2.jpg">
+              </div>
+              <div class="col-md-4">
+              <img src="img/categories3.jpg">
+              </div>
+              </div>
+          </div>
+        </Section>
+
+
+
+
+    <section class="On-Sale">
+      <div class="container">
+          <div class="title-box">
+              <h4>On-Sale</h4>
+          </div>
+          <div class="row">
+              <!-- Product 1 -->
+              <div class="col-md-3">
+                  <div class="product-top">
+                      <a href="product.html"><img src="img/product1.jpg" alt=""></a>
+                      <div class="overLay-right">
+                          <button type="button" class="btn btn-secondary" title="Quick Shop">
+                              <i class="fa-regular fa-eye"></i>
+                          </button>
+                          <button type="button" class="btn btn-secondary" title="Add to wish list">
+                              <i class="fa-regular fa-heart"></i>
+                          </button>
+                          <button type="button" class="btn btn-secondary" title="Add to wish list">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                          </button>
+                      </div>
+                  </div>
+                  <div class="product-bottom text-center">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <h3>Gold Watch</h3>
+                      <h5>$1000.00</h5>
+                  </div>
+              </div>
+  
+              <!-- Product 2 -->
+              <div class="col-md-3">
+                  <div class="product-top">
+                    <a href="product.html"><img src="img/product2.jpg" alt=""></a>
+                      <div class="overLay-right">
+                          <button type="button" class="btn btn-secondary" title="Quick Shop">
+                              <i class="fa-regular fa-eye"></i>
+                          </button>
+                          <button type="button" class="btn btn-secondary" title="Add to wish list">
+                              <i class="fa-regular fa-heart"></i>
+                          </button>
+                          <button type="button" class="btn btn-secondary" title="Add to wish list">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                          </button>
+                      </div>
+                  </div>
+                  <div class="product-bottom text-center">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <h3>Watch</h3>
+                      <h5>$370.00</h5>
+                  </div>
+              </div>
+  
+              <!-- Product 3 -->
+              <div class="col-md-3">
+                  <div class="product-top">
+                    <a href="product.html"><img src="img/product3.jpg" alt=""></a>
+                      <div class="overLay-right">
+                          <button type="button" class="btn btn-secondary" title="Quick Shop">
+                              <i class="fa-regular fa-eye"></i>
+                          </button>
+                          <button type="button" class="btn btn-secondary" title="Add to wish list">
+                              <i class="fa-regular fa-heart"></i>
+                          </button>
+                          <button type="button" class="btn btn-secondary" title="Add to wish list">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                          </button>
+                      </div>
+                  </div>
+                  <div class="product-bottom text-center">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <h3>Sports Shoes</h3>
+                      <h5>$500.00</h5>
+                  </div>
+              </div>
+  
+              <!-- Product 4 -->
+              <div class="col-md-3">
+                  <div class="product-top">
+                    <a href="product.html"><img src="img/product4.jpg" alt=""></a>
+                      <div class="overLay-right">
+                          <button type="button" class="btn btn-secondary" title="Quick Shop">
+                              <i class="fa-regular fa-eye"></i>
+                          </button>
+                          <button type="button" class="btn btn-secondary" title="Add to wish list">
+                              <i class="fa-regular fa-heart"></i>
+                          </button>
+                          <button type="button" class="btn btn-secondary" title="Add to wish list">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                          </button>
+                      </div>
+                  </div>
+                  <div class="product-bottom text-center">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <h3>Fitness T-shirt</h3>
+                      <h5>$200.00</h5>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+      <!-- New Product -->
+      <section class="new-product">
+        <div class="container">
+            <div class="title-box">
+                <h4>New Arrivals</h4>
+            </div>
+            <div class="row">
+                <!-- Product 1 -->
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <a href="product.html"><img src="img/product1.jpg" alt=""></a>
+                        <div class="overLay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa-regular fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <h3>Gold Watch</h3>
+                        <h5>$1000.00</h5>
+                    </div>
+                </div>
+    
+                <!-- Product 2 -->
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <a href="product.html"><img src="img/product2.jpg" alt=""></a>
+                        <div class="overLay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa-regular fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <h3>Watch</h3>
+                        <h5>$370.00</h5>
+                    </div>
+                </div>
+    
+                <!-- Product 3 -->
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <a href="product.html"><img src="img/product3.jpg" alt=""></a>
+                        <div class="overLay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa-regular fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <h3>Sports Shoes</h3>
+                        <h5>$500.00</h5>
+                    </div>
+                </div>
+    
+                <!-- Product 4 -->
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <a href="product.html"><img src="img/product4.jpg" alt=""></a>
+                        <div class="overLay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa-regular fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <h3>Fitness T-shirt</h3>
+                        <h5>$200.00</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <!-- Product 1 -->
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <a href="product.html"><img src="img/product1.jpg" alt=""></a>
+                        <div class="overLay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa-regular fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <h3>Gold Watch</h3>
+                        <h5>$1000.00</h5>
+                    </div>
+                </div>
+    
+                <!-- Product 2 -->
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <a href="product.html"><img src="img/product2.jpg" alt=""></a>
+                        <div class="overLay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa-regular fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <h3>Watch</h3>
+                        <h5>$370.00</h5>
+                    </div>
+                </div>
+    
+                <!-- Product 3 -->
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <a href="product.html"><img src="img/product3.jpg" alt=""></a>
+                        <div class="overLay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa-regular fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <h3>Sports Shoes</h3>
+                        <h5>$500.00</h5>
+                    </div>
+                </div>
+    
+                <!-- Product 4 -->
+                <div class="col-md-3">
+                    <div class="product-top">
+                        <a href="product.html"><img src="img/product4.jpg" alt=""></a>
+                        <div class="overLay-right">
+                            <button type="button" class="btn btn-secondary" title="Quick Shop">
+                                <i class="fa-regular fa-eye"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                                <i class="fa-regular fa-heart"></i>
+                            </button>
+                            <button type="button" class="btn btn-secondary" title="Add to wish list">
+                              <i class="fa-solid fa-bag-shopping"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-bottom text-center">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <h3>Fitness T-shirt</h3>
+                        <h5>$200.00</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!------------------website feactured-------------------->
+
+      <Section class="website-feactured">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 feactured-box">
+                    <img src="img/featured1.png" alt="">
+                    <div class="feactured-text">
+                        <p><b> 100% Orignal items</b> are available at company </p>
+                    </div>
+                </div>
+                <div class="col-md-3 feactured-box">
+                    <img src="img/featured2.png" alt="">
+                    <div class="feactured-text">
+                        <p><b>Return with in 30 days</b> receiving you Order </p>
+                    </div>
+                </div>
+                <div class="col-md-3 feactured-box">
+                    <img src="img/featured3.png" alt="">
+                    <div class="feactured-text">
+                        <p><b> Get free deliverys every </b> order for more than price </p>
+                    </div>
+                </div>
+                <div class="col-md-3 featured-box">
+                    <img src="img/featured4.png" alt="">
+                    <div class="featured-text">
+                        <p><b> Pay ONline through multiple </b> Option (card/net banking) </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </Section>
+
+      <section class="footer">
+        <div class="container tex-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Useful Links</h1>
+                    <p>Privacy Policies</p>
+                    <p>Terms of use</p>
+                    <p>Return policy</p>
+                    <p>Discount Coupens</p>
+                </div>
+                <div class="col-md-6">
+                    <h1>About Us</h1>
+                    <p>Company</p>
+                    <p>Contact Us</p>
+                    <p>Affiliate</p>
+                    <p>Career</p>
+                </div>
+                <div class="col-md-6">
+                    <h1>Follow Us</h1>
+                    <p><i class="fa-brands fa-youtube"></i>Youtube</p>
+                    <p><i class="fa-brands fa-facebook"></i>Facebook</p>
+                    <p><i class="fa-brands fa-linkedin"></i>Linkedin</p>
+                    <p><i class="fa-brands fa-twitter"></i>Twitter</p>
+                </div>
+                <div class="col-md-6">
+                    <h1> Download app</h1>
+                    <img src="img/app.jpg" alt="">
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Made with by Easy Tutorials</p>
+        </div>
+      </section>
+
+      <script>
+        function openmenu(){
+            document.getElementById("side-menu").style.display="block";
+            document.getElementById("menu-btn").style.display="none";
+            document.getElementById("close-btn").style.display="block";
+        }
+        function closemenu(){
+            document.getElementById("side-menu").style.display="none";
+            document.getElementById("menu-btn").style.display="block";
+            document.getElementById("close-btn").style.display="none";
+        }
+      </script>
+</body>
+</html>
